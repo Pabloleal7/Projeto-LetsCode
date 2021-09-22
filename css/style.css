@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+header{
+  background-color: #FF1700;
+}
+nav a, .nav-link{
+  color: white;
+}
+
+nav a:hover, .nav-link:hover{
+  color: antiquewhite;
+}
+
+.navbar-brand{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.botao-entrar{
+  background-color: white;
+  color: black;
+}
+.nav-components{
+  display: flex;
+  flex-direction: row;
+}
+.img-main{
+  
+}
