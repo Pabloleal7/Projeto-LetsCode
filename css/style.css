@@ -2,9 +2,7 @@
   0%{
     transform: rotateY(0deg);
   }
-  50%{
-    transform: rotateY(180deg);
-  }
+  
   100%{
     transform: rotateY(360deg);
   }
@@ -58,6 +56,7 @@ nav a:hover,
   width: fit-content;
   height: 200px;
   float: left;
+  max-width: 80%;
 }
 
 footer {
@@ -111,4 +110,18 @@ h2{
 button:hover{
   background-color: antiquewhite;
   
+}
+
+.card:hover{
+  background-color: antiquewhite;
+  border-color: rgb(161, 161, 161);
+}
+a.btn{
+  background-color: #ff1700;
+  color: white;
+ 
+}
+a.btn:hover{
+  background-color: #5e0c05;
+  color: rgb(248, 240, 240);
 }
